@@ -1,0 +1,214 @@
+@import "style.css";
+
+body{
+	margin: 0;
+}
+
+header{
+	background: #efefef;
+}
+.menu-top{
+	background: #263b47;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+	align-items: center;
+}
+
+.menu-top figure{
+	margin: 0;
+	width: 150px;
+}
+.menu-top figure img{
+	width: 100%;
+	display: block;
+}
+
+.menu-top nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding:19px 5px;
+	font-family: 'Open Sans', sans-serif;
+	border-top: 5px solid transparent;
+	transition: .7s;
+}
+
+.menu-top nav ul li a:hover{
+	border-top: 15px solid #7dcd40;
+	transition: .3s;
+}
+
+.menu-top nav ul li{
+	list-style: none;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.menu-top nav ul{
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+}
+
+.menu-top nav ul span{
+	color: white;
+	font-size: 25	px;
+}
+
+.menu-top nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu-top nav{
+	display: flex;
+	align-items: center;
+}
+
+.btn-sesion{
+	background: #ef4b48;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.contenedor{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buscador{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.input-buscar{
+	border-radius: 5px;
+	height: 26px;
+}
+
+.btn-buscar{
+	color: white;
+	background:#333333;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.info-general{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.info-general figure img{
+	width: 100%;
+	display: inline-block;
+}
+
+.info-general figure{
+	margin: 0;
+}
+
+.info{
+	width: 500px;
+	font-family: 'Arial', Sans serif;
+	background: rgba(255,255,255,0.7);
+	padding: 10px;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+.info .persona figure{
+	width: 50px;
+	margin:0;
+}
+
+.persona{
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 0 10px;
+}
+.fecha{
+	position: absolute;
+	right: 10px;
+}
+
+.persona span{
+	margin-left: 10px;
+}
+
+.persona figure img{
+	width: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.colum{
+	width: 300px;
+}
+.colum figure{
+	margin: 0;
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.datos_comentario{
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+}
+
+.fecha-coment{
+	position: absolute;
+	right: 5px;
+}
+
+.colum h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #515251;
+}
+
+.datos_comentario{
+	font-size: 12px;
+}
+
+.footer{
+	text-align: center;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #515251;
+}
+
+.footer span{
+	margin: 0 5px;
+}
+
+.footer span a{
+	margin: 0 10px;
+	text-decoration: none;
+	padding: 8px;
+}
+
+.borde{
+	border: 1px solid #cccccc;
+	background: #eaeaea;
+	color: #666666;
+}
+/*.siguiente:after{
+	content: ">";
+}
+
+.ultimo:after{
+	content: ">>";
+}*/
